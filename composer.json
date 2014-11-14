@@ -1,0 +1,27 @@
+{
+    "name": "turanct/railway",
+    "description": "Railway Oriented Development in PHP",
+    "type": "library",
+    "homepage": "http://github.com/turanct/railway",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "spinnewebber_toon@hotmail.com",
+            "homepage": "http://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
